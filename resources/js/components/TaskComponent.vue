@@ -21,7 +21,7 @@
                             <td>
                                 <div class="row">
                                     <div class="col-6">
-                                        <button class="btn btn-warning" @click="loadFieldsUpdate(task)">Edit</button>
+                                        <button class="btn btn-primary" @click="loadFieldsUpdate(task)">Editar</button>
                                     </div>
                                     <div class="col-6">
                                         <button class="btn btn-danger" @click="deleteTask(task)">Borrar</button>
