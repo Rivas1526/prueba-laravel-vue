@@ -35,13 +35,13 @@
             <div class="col-md-6">
                 <!-- campos para crear las tareas -->
                 <div class="form-group">
-                    <label>Nombre</label>
+                    <label class="text-dark">Nombre</label>
                     <input v-model="name" type="text" class="form-control">
 
-                    <label>Descripción</label>
+                    <label class="text-dark">Descripción</label>
                     <input v-model="description" type="text" class="form-control">
 
-                    <label>Contenido</label>
+                    <label class="text-dark">Contenido</label>
                     <input v-model="content" type="text" class="form-control">
                 </div>
                 <div class="container-buttons text-center">
